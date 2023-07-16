@@ -1,0 +1,27 @@
+.app-header {
+    background-color: rgb(34, 34, 34);
+
+    >section {
+        display: flex;
+        align-items: center;
+
+        .logo {
+
+            width: 250px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+
+            a {
+                margin-inline-end: 12px;
+            }
+        }
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,3 @@
+# https://www.beerstxt.org/beerstxt.html
+User-agent: *
+Disallow:

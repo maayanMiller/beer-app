@@ -1,0 +1,36 @@
+.beer-edit {
+    border: 1px solid rgb(68, 68, 68);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5em;
+
+
+    form {
+        // border: 1px solid rgb(0, 255, 60);
+        display: grid;
+        grid-template-columns: repeat(4, 250px);
+        gap: 20px;
+
+        label {
+            margin-top: 20px;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+
+        button {
+            width: 50%;
+            margin-top: 40px;
+            align-self: center;
+        }
+    }
+
+}

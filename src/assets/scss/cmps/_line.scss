@@ -1,0 +1,46 @@
+.line {
+    width: 1510px;
+    display: grid;
+    // border: 1px solid rgb(217, 255, 0);
+    margin-bottom: 3px;
+    height: 1em;
+    // margin-left: 0;
+    grid-template-columns: repeat(7, 55px 640px 495px 80px 80px 105px 55px);
+}
+
+.line-header {
+    margin-bottom: 12px;
+    font-size: rem(18px);
+    font-weight: 600;
+    color: rgb(200, 171, 26);
+    font-family: 'Ubuntu-Regular';
+    // border: 1px solid rgb(0, 21, 255);
+}
+
+.cell-container [data-kind="digit"] {
+    background-image: url("../../imgs/15.png");
+    // background-color: rgba(0, 255, 255, 0);
+    background-size: 230.2%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid rgb(32, 30, 27);
+    color: rgb(150, 159, 168);
+}
+
+.brewery-and-type {
+    width: 490px;
+    display: flex;
+    // justify-content: space-between;
+}
+
+.beer-name {
+    width: 640px;
+}
+
+.beer-brewery {
+    width: 180px;
+}
+
+.beer-type {
+    width: 310px;
+}
